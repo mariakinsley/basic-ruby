@@ -1,7 +1,7 @@
 # Create a function that takes a string as an argument and adds the phrase "Only in America!" to the end of it
 # passing a variable no quotes
-def add_sentence(I get drunk)
- i get drunk + "only in America"
+def add_sentence(i_get_drunk)
+ i_get_drunk + "only in America"
 end
 
 puts add_sentence("I get drunk")
