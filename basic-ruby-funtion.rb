@@ -6,7 +6,7 @@ end
 
 puts add_sentence("I get drunk")
 
-# varr = 'uhu'
+
 
 # Create a function to find the maximum value in an array of numbers. For instance: [100,10,-1000] should return 100. Do not use Ruby's built-in .max function.
 
@@ -27,8 +27,8 @@ arr = [12,23,45,23,33]
 puts max_value(arr)
 
 
-arr [4, 6 ,10, 66, 44, 77, 5, 5]
-arr.length
+# arr [4, 6 ,10, 66, 44, 77, 5, 5]
+# arr.length
 
 # Create a function that takes two arguments - both of them arrays. Inside of the function, combine the arrays using the items from the first array as keys and the second array as values. Do not use Ruby's built-in .zip function. For example, when these two arrays are supplied as arguments:
 
@@ -48,3 +48,24 @@ end
 arr_jim=["avocado","apples","oranges"]
 arr_maria=["bread","cheese","spinach"]
 puts combine(arr_jim, arr_maria)
+
+
+# =============fizz one==========
+# Write a program that prints the numbers from 1 to 100, except:
+#
+# for multiples of three print "Fizz" instead of the number
+# for multiples of five print "Buzz"
+# # Print "FizzBuzz" for numbers that are multiples of both 3 and 5.
+def print_out_Numbers ()
+  (1..100).each do |x|
+    if (x %3 === 0 && x %5 === 0);
+      puts"FizzBuzz"
+    elsif ( x %3 === 0);
+      puts "Fizz"
+    elsif (x %5 === 0);
+      puts "Buzz"
+    else
+      puts x
+    end
+  end
+end
